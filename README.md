@@ -1,4 +1,4 @@
-# note-taker
+# Note-taker
 
 - write a server
     - read and write to the db json file
@@ -21,3 +21,7 @@
         - display those notes
     - create/display for all api routes
     - jquery handler to show all notes/edit/delete
+
++ connected to heroku
++ npm installed
++ express.js in package json
