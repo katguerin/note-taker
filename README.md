@@ -22,6 +22,9 @@
     - create/display for all api routes
     - jquery handler to show all notes/edit/delete
 
+
+## Done:
 + connected to heroku
 + npm installed
 + express.js in package json
++ node working in the terminal
