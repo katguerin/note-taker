@@ -58,7 +58,6 @@ app.post('/api/notes', (req, res) => {
 
 // creating new note. obviously
 function createNewNote(body, notesArray) {
-    req.body.id = notes.length.toString();
     const note = body;
     notesArray.push(note);
     fs.writeFileSync(
