@@ -1,14 +1,8 @@
 # Note-taker
 
-- write a server
-    - read and write to the db json file
-    - set up express routes
-    - api routes for getting and adding notes
-        delete a note
-        update/edit a note
-        read a single note (could be just front end/ not in the api)
-
-< ----- also see errors over there
+## AS A small business owner
+## I WANT to be able to write and save notes
+## SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 
 ## Done:
@@ -19,3 +13,5 @@
 + displays notes
 + html routes for both pages
 + create a note
++ delete a note
++ read and write to the db json file
