@@ -1,15 +1,19 @@
 {
-    "notes": [
-        {
-            "title":"Note Title",
-            "text":"Note text",
-            "id": "test_id"
-        },
-        {
-            "title":"Note Title3",
-            "text":"Note text3",
-            "id": "test_id3"
-        }
-    
-    ]
+  "notes": [
+    {
+      "title": "Note Title",
+      "text": "Note text",
+      "id": 1
+    },
+    {
+      "title": "Note two",
+      "text": "Note two",
+      "id": 2
+    },
+    {
+      "title": "asdf",
+      "text": "adf",
+      "id": 3
+    }
+  ]
 }
