@@ -71,7 +71,7 @@ function createNewNote(body, notesArray) {
 app.delete('/api/notes/:id', (req, res) => {
     let notesSize = notes.length - 1;
     console.log('--- DELETE REQUEST -  NOTES LENGTH:  ' + notesSize);
-    const result = deleteById(notesSize.toString(), notes);
+    const result = deleteById(req.params.id.toString(), notes);
 
     fs.writeFileSync(
         path.join(__dirname, './db/db.json'),
